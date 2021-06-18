@@ -1,13 +1,12 @@
 require 'net/https'
 require 'uri'
-require 'cgi'
 require 'json'
 require 'securerandom'
 
 class Translate
     def initialize
 
-        @subscription_key = 'a755175ca6e640ddbb811c1edd245e90'
+        @subscription_key = '[Your key subscription gerado pelo porta da Microsoft]'
         @subscription_region = 'brazilsouth'
 
         @endpoint = 'https://api.cognitive.microsofttranslator.com'
